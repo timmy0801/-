@@ -1,0 +1,52 @@
+<resources>
+    <string name="app_name">Juuuuuuuuu</string>
+    <string name="title_activity_home_page">HomePage</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="open">Open</string>
+
+    <string name="close">Close</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string-array name="accounting_mother_category">
+        <item>飲食</item>
+        <item>交通</item>
+        <item>娛樂</item>
+        <item>購物</item>
+        <item>家居</item>
+        <item>個人</item>
+        <item>生活休閒</item>
+        <item>醫療</item>
+        <item>學習</item>
+        <item>其他支出</item>
+    </string-array>
+    <string-array name="accounting_mother_category1">
+        <item>工作收入</item>
+        <item>非工作收入</item>
+    </string-array>
+
+    <string name="juuu">註冊一個Juuu</string>
+    <string-array name="datamoney">
+        <item>新台幣 TWD</item>
+        <item>美元 USD</item>
+        <item>港幣 HKD</item>
+        <item>英鎊 GBP</item>
+        <item>澳幣 AUD</item>
+        <item>加拿大幣 CAD</item>
+        <item>新加坡幣 SGD</item>
+        <item>瑞士法郎 CHF</item>
+        <item>日幣 JPY</item>
+        <item>南非幣 ZAR</item>
+        <item>瑞典克郎 SEK</item>
+        <item>紐西蘭幣 NZD</item>
+        <item>泰銖 THB</item>
+        <item>菲律賓比索 PHP</item>
+        <item>印尼盧比 IDR</item>
+        <item>歐元 EUR</item>
+        <item>韓元 KRW</item>
+        <item>越南盾 VND</item>
+        <item>令吉 MYR</item>
+        <item>人民幣 CNY</item>
+    </string-array>
+</resources>

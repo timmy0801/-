@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/left_notification"
+        android:icon="@drawable/notification"
+        android:title="分帳通知"
+        android:iconTint="#FB8C00"/>
+    <item android:id="@+id/left_currency"
+        android:icon="@drawable/currency"
+        android:title="貨幣預設"
+        android:iconTint="#8BC34A"/>
+    <item android:id="@+id/left_remind"
+        android:icon="@drawable/classify"
+        android:title="類別管理"
+        android:iconTint="#9575CD"/>
+    <item android:id="@+id/left_project"
+        android:icon="@drawable/pjmanage"
+        android:title="專案管理"
+        android:iconTint="#8D6E63"/>
+    <item android:id="@+id/left_invoice"
+        android:icon="@drawable/invoice"
+        android:title="電子發票對獎"
+        android:iconTint="#304FFE"/>
+    <item
+        android:id="@+id/left_logout"
+        android:icon="@drawable/logout"
+        android:title="登出"
+        android:iconTint="#E57373"/>
+</menu>

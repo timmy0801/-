@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/friend_home"
+        android:icon="@drawable/ic_home_black_24dp"
+        android:title="主頁" />
+    <item
+        android:id="@+id/friend_love"
+        android:icon="@drawable/ic_home_black_24dp"
+        android:title="我的珍藏" />
+
+    <item
+        android:id="@+id/Friend_list"
+        android:icon="@drawable/ic_dashboard_black_24dp"
+        android:title="好友清單" />
+
+
+
+
+</menu>

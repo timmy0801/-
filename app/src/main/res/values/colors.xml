@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="colorBrown">#FF7A5E50</color>
+    <color name="one">#D86F6A</color>
+    <color name="two">#A9C0FA</color>
+    <color name="three">#FF864E</color>
+    <color name="four">#FAA9DF</color>
+    <color name="five">#677592</color>
+    <color name="six">#6B605F</color>
+    <color name="seven">#827717</color>
+    <color name="eight">#006064</color>
+    <color name="nine">#9575CD</color>
+    <color name="ten">#BCAAA4</color>
+    <color name="ele">#A5D6A7</color>
+    <color name="twelve">#FFB74D</color>
+    <color name="r1">#D86F6A</color>
+    <color name="r2">#A9C0FA</color>
+    <color name="r3">#FF864E</color>
+    <color name="r4">#FAA9DF</color>
+    <color name="r5">#677592</color>
+    <color name="r6">#6B605F</color>
+    <color name="r7">#827717</color>
+    <color name="r8">#006064</color>
+    <color name="r9">#9575CD</color>
+    <color name="r10">#BCAAA4</color>
+    <color name="r11">#A5D6A7</color>
+    <color name="r12">#FFB74D</color>
+    <color name="in">#47B140</color>
+    <color name="minus">#CBFC4B4B</color>
+    <color name="search">#EBEBEB</color>
+</resources>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/project_home"
+        android:icon="@drawable/homepage"
+        android:title="主頁" />
+    <item
+        android:id="@+id/project_newrecord"
+        android:icon="@drawable/add"
+        android:title="新增專案" />
+
+    <item
+        android:id="@+id/project_report"
+        android:icon="@drawable/post"
+        android:title="專案報表" />
+</menu>

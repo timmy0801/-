@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+        <!--        <TextView-->
+        <!--            android:id="@+id/project_cost"-->
+        <!--            android:layout_width="match_parent"-->
+        <!--            android:layout_height="40dp"-->
+        <!--            android:gravity="center"-->
+        <!--            android:text="專案支出總額:"-->
+        <!--            android:layout_below="@+id/project_tablayout"-->
+        <!--            > </TextView>-->
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/project_recyclerview_teamdetail"
+            android:layout_width="match_parent"
+            android:layout_height="400dp"
+            android:background="#FFF"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_alignParentBottom="true"
+            android:gravity="center">
+            <Button
+                android:id="@+id/team_button"
+                android:layout_width="100dp"
+                android:layout_height="40dp"
+                android:text="新增紀錄"
+                />
+        </LinearLayout>
+    </LinearLayout>
+
+
+</LinearLayout>

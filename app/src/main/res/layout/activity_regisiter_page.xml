@@ -1,0 +1,185 @@
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center_horizontal"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:id="@+id/register_div1"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:background="#424040">
+        <ImageButton
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@android:color/transparent"
+            android:src="@drawable/backkey"
+            android:tint="#ffff"/>
+        <TextView
+            android:id="@+id/regisiter_div_1"
+            android:layout_width="0dp"
+            android:layout_height="65dp"
+            android:text="註    冊"
+            android:textSize="32dp"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:gravity="center"
+            android:layout_weight="3"/>
+        <ImageButton
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@android:color/transparent"/>
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/regisiter_div_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/register_div1"
+        android:layout_gravity="center_horizontal"
+        android:orientation="vertical"
+        android:layout_marginTop="35dp"
+        xmlns:android="http://schemas.android.com/apk/res/android">
+
+        <!--<EditText-->
+        <!--android:id="@+id/account"-->
+        <!--android:layout_width="250dp"-->
+        <!--android:layout_height="40dp"-->
+        <!--android:layout_gravity="center"-->
+        <!--android:background="@drawable/register_edittext"-->
+        <!--android:hint="設定帳號"-->
+        <!--android:textSize="14dp"-->
+        <!--android:textColorHint="#FFBEB6B6"-->
+        <!--android:singleLine="true"/>-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="12dp"
+            android:gravity="center">
+            <ImageView
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:src="@drawable/mail"
+                android:layout_marginRight="25dp"
+                android:tint="#424040"/>
+            <EditText
+                android:id="@+id/Email"
+                android:layout_width="250dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:background="@drawable/accounting_frame"
+                android:hint="帳號：請輸入Email"
+                android:textSize="14dp"
+                android:textColorHint="#C9C9C9"
+                android:singleLine="true"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="30dp"
+            android:gravity="center">
+            <ImageView
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_marginRight="25dp"
+                android:src="@drawable/password"
+                android:tint="#424040"/>
+            <EditText
+                android:id="@+id/Password"
+                android:layout_width="250dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:background="@drawable/accounting_frame"
+                android:hint="設定密碼"
+                android:password="true"
+                android:textSize="14dp"
+                android:textColorHint="#C9C9C9"
+                android:singleLine="true"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="30dp"
+            android:gravity="center">
+            <ImageView
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:src="@drawable/password"
+                android:tint="#424040"
+                android:layout_marginRight="25dp"/>
+            <EditText
+                android:id="@+id/Password_check"
+                android:layout_width="250dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:background="@drawable/accounting_frame"
+                android:hint="確認密碼"
+                android:password="true"
+                android:textSize="14dp"
+                android:textColorHint="#C9C9C9"
+                android:singleLine="true"/>
+        </LinearLayout>
+        <!--            <LinearLayout-->
+        <!--                android:layout_width="match_parent"-->
+        <!--                android:layout_height="40dp"-->
+        <!--                android:layout_marginTop="20dp"-->
+        <!--                android:gravity="center">-->
+        <!--                <ImageView-->
+        <!--                    android:layout_width="40dp"-->
+        <!--                    android:layout_height="40dp"-->
+        <!--                    android:src="@drawable/account"-->
+        <!--                    android:layout_marginRight="10dp"/>-->
+        <!--                <EditText-->
+        <!--                    android:id="@+id/Username"-->
+        <!--                    android:layout_width="250dp"-->
+        <!--                    android:layout_height="40dp"-->
+        <!--                    android:layout_gravity="center"-->
+        <!--                    android:background="@drawable/register_edittext"-->
+        <!--                    android:hint="您的姓名"-->
+        <!--                    android:textSize="14dp"-->
+        <!--                    android:textColorHint="#FFBEB6B6"-->
+        <!--                    android:singleLine="true"/>-->
+        <!--            </LinearLayout>-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="30dp"
+            android:gravity="center">
+            <ImageView
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:src="@drawable/nickname"
+                android:tint="#424040"
+                android:layout_marginRight="25dp"/>
+            <EditText
+                android:id="@+id/Ris_Username"
+                android:layout_width="250dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:background="@drawable/accounting_frame"
+                android:hint="個人暱稱"
+                android:singleLine="true"
+                android:textColorHint="#C9C9C9"
+                android:textSize="14dp" /></LinearLayout>
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:gravity="center"
+        android:layout_marginBottom="30dp">
+        <Button
+            android:background="@drawable/register_button"
+            android:id="@+id/register_subit"
+            android:layout_width="120dp"
+            android:layout_height="45dp"
+            android:textSize="16dp"
+            android:textStyle="bold"
+            android:textColor="#ffff"
+            android:text="提 交"/>
+    </LinearLayout>
+
+</RelativeLayout>

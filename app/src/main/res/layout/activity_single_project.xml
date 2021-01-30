@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="@drawable/list_corner"
+        android:layout_marginRight="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginBottom="5dp">
+        <LinearLayout
+            android:id="@+id/div_ppp"
+            android:layout_width="70dp"
+            android:layout_height="70dp">
+            <ImageView
+                android:id="@+id/project_image"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="8dp"
+                app:srcCompat="@drawable/project" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:id="@+id/div_name"
+            android:layout_toRightOf="@id/div_ppp"
+            android:orientation="horizontal">
+            <TextView
+                android:id="@+id/display_project_name"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="10"
+                android:layout_toRightOf="@+id/project_image"
+                android:gravity="left|center"
+                android:paddingLeft="10dp"
+                android:fontFamily="sans-serif-black"
+                android:text="TextView"
+                android:textColor="#8C47FF"
+                android:textSize="22sp"
+                android:textStyle="bold" />
+            <ImageView
+                android:id="@+id/people_image"
+                android:layout_width="0dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:src="@drawable/users"
+                android:tint="#4CAAFF"
+                android:layout_gravity="center"/>
+            <TextView
+                android:id="@+id/project_people"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="2"
+                android:text="5"
+                android:textSize="16dp"
+                android:gravity="center"
+                android:textStyle="bold"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_toRightOf="@id/div_ppp"
+            android:layout_below="@id/div_name">
+            <TextView
+                android:id="@+id/project_note_single"
+                android:text="專案簡介"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="8"
+                android:layout_below="@+id/display_project_name"
+                android:layout_toRightOf="@+id/project_image"
+                android:gravity="left|center"
+                android:paddingLeft="10dp"
+                android:fontFamily="sans-serif-black"
+                android:textColor="#B1B1B1"
+                android:textSize="12dp" />
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_weight="3"
+                android:layout_height="match_parent">
+<!--            <ImageView-->
+<!--                android:id="@+id/project_remove"-->
+<!--                android:layout_width="0dp"-->
+<!--                android:layout_height="25dp"-->
+<!--                android:layout_weight="3"-->
+<!--                android:paddingLeft="40dp"-->
+<!--                android:src="@drawable/remove"-->
+<!--                android:tint="#E46666"/>-->
+            </LinearLayout>
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+
+</LinearLayout>

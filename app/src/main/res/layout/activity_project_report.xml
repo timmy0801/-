@@ -1,0 +1,115 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#424040">
+            <ImageButton
+                android:id="@+id/projecreport_backto"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@android:color/transparent"
+                android:padding="8dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/backkey"
+                android:tint="#FFFFFF" />
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1.5"
+                android:layout_gravity="center">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="專案管理報表"
+                    android:textColor="#FFF"
+                    android:gravity="center"
+                    android:textSize="18dp"
+                    android:textStyle="bold"
+                    />
+            </LinearLayout>
+            <ImageButton
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@android:color/transparent"
+                android:padding="8dp"
+                android:scaleType="fitXY"
+                android:tint="#FFFFFF"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:orientation="horizontal"
+            android:gravity="center">
+            <ImageButton
+                android:id="@+id/project_previous"
+                android:src="@drawable/left_arrow"
+                android:layout_width="80dp"
+                android:layout_height="40dp"
+                android:tint="#646464"
+                android:background="@android:color/transparent"/>
+            <TextView
+                android:id="@+id/show_project_name"
+                android:layout_width="120dp"
+                android:layout_height="29dp"
+                android:gravity="center"
+                />
+            <ImageButton
+                android:id="@+id/project_next"
+                android:hint="next"
+                android:layout_width="80dp"
+                android:layout_height="40dp"
+                android:src="@drawable/right_arrow"
+                android:tint="#646464"
+                android:background="@android:color/transparent"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="250dp">
+
+            <com.github.mikephil.charting.charts.PieChart
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/project_chart">
+            </com.github.mikephil.charting.charts.PieChart>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            //////這裡是RecyclerView
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/project_recycle"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="10dp"/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <!--    <com.google.android.material.bottomnavigation.BottomNavigationView-->
+    <!--        android:id="@+id/navigation"-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="50dp"-->
+    <!--        android:layout_alignParentBottom="true"-->
+    <!--        app:itemIconTint="#000"-->
+    <!--        app:itemTextColor="#000"-->
+    <!--        android:background="#FFF"-->
+    <!--        app:menu="@menu/bottom_nav_menu"-->
+    <!--        app:labelVisibilityMode="labeled"-->
+
+    <!--        app:itemHorizontalTranslationEnabled="false"-->
+    <!--        > app:itemBackground="@null"-->
+    <!--    </com.google.android.material.bottomnavigation.BottomNavigationView>-->
+</RelativeLayout>
+

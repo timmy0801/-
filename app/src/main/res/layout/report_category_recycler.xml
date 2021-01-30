@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:layout_marginTop="5dp"
+    android:gravity="center"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        >
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:gravity="center|right">
+            <ImageView
+                android:id="@+id/report_showrecord_icon"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:src="@drawable/usericon"
+                android:scaleType="fitXY" />
+        </LinearLayout>
+        <TextView
+            android:id="@+id/report_showrecord_test"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="5"
+            android:text="早餐:"
+            android:textSize="16sp"
+            android:gravity="center|left"
+            android:layout_marginLeft="10dp"
+            android:paddingLeft="15dp"/>
+        <TextView
+            android:id="@+id/report_showrecord_cost"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="4"
+            android:text="$1000"
+            android:gravity="center|left"
+            android:textSize="14dp" />
+    </LinearLayout>
+    <!--    <RelativeLayout-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="60dp"-->
+
+    <!--        > android:background="@drawable/homepage_show_money"-->
+    <!--        ////////////////////////////////////////////////////留-->
+
+    <!--        <TextView-->
+    <!--            android:id="@+id/div_logo"-->
+    <!--            android:layout_width="50dp"-->
+    <!--            android:layout_height="match_parent"-->
+    <!--            android:layout_alignParentStart="true"-->
+    <!--            android:layout_alignParentLeft="true"-->
+    <!--            android:layout_marginStart="0dp"-->
+    <!--            android:layout_marginLeft="0dp" />-->
+    <!--        /////////////////////////////////////////////////////-->
+    <!--        <TextView-->
+    <!--            android:id="@+id/showrecord_test"-->
+    <!--            android:layout_width="150dp"-->
+    <!--            android:layout_height="40dp"-->
+    <!--            android:layout_toRightOf="@+id/div_logo"-->
+    <!--            android:text="早餐:"-->
+    <!--            android:textSize="15sp"-->
+    <!--            android:gravity="left|center" />-->
+    <!--        &lt;!&ndash;        <TextView&ndash;&gt;-->
+    <!--        &lt;!&ndash;            android:id="@+id/showrecord_under_test"&ndash;&gt;-->
+    <!--        &lt;!&ndash;            android:layout_width="60dp"&ndash;&gt;-->
+    <!--        &lt;!&ndash;            android:layout_height="35dp"&ndash;&gt;-->
+    <!--        &lt;!&ndash;            android:layout_below="@+id/showrecord_test"&ndash;&gt;-->
+    <!--        &lt;!&ndash;            android:layout_toRightOf="@+id/div_logo"/>&ndash;&gt;-->
+    <!--        <TextView-->
+    <!--            android:id="@+id/showrecord_cost"-->
+    <!--            android:layout_width="match_parent"-->
+    <!--            android:layout_height="40dp"-->
+
+    <!--            android:layout_toRightOf="@+id/showrecord_test"-->
+    <!--            android:text="$1000"-->
+    <!--            android:gravity="center|left"-->
+    <!--            android:textSize="14dp"-->
+    <!--            android:paddingRight="50dp"/>-->
+    <!--        <TextView-->
+    <!--            android:id="@+id/showrecord_text"-->
+    <!--            android:layout_width="150dp"-->
+    <!--            android:layout_height="20dp"-->
+    <!--            android:layout_below="@+id/showrecord_cost"-->
+    <!--            android:layout_toRightOf="@+id/div_logo"-->
+
+    <!--            android:gravity="bottom|left"-->
+    <!--            android:paddingBottom="6dp"-->
+    <!--            />-->
+    <!--        <TextView-->
+    <!--            android:layout_width="match_parent"-->
+    <!--            android:layout_height="20dp"-->
+    <!--            android:layout_toRightOf="@+id/showrecord_text"-->
+    <!--            android:layout_below="@+id/showrecord_cost"-->
+
+
+    <!--            android:gravity="center|right"-->
+    <!--            android:paddingRight="20dp"-->
+    <!--            />-->
+    <!--    </RelativeLayout>-->
+</RelativeLayout>

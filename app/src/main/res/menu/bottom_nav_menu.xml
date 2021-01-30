@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+<!--    <item-->
+<!--        android:id="@+id/navigation_home"-->
+<!--        android:title="主頁"-->
+<!--        android:icon="@drawable/homepage"-->
+<!--        />-->
+
+<!--    <item-->
+<!--        android:id="@+id/navigation_scan"-->
+<!--        android:icon="@drawable/scan"-->
+<!--        android:title="掃瞄發票" />-->
+    <item
+        android:id="@+id/navigation_report"
+        android:icon="@drawable/post"
+        android:title="報表" />
+
+    <item
+        android:id="@+id/navigation_newrecrd"
+        android:icon="@drawable/add"
+        android:title="新增" />
+
+
+
+    <item
+        android:id="@+id/navigation_fdlist"
+        android:title="好友動態"
+        android:icon="@drawable/friendlist"
+        />
+
+
+</menu>
